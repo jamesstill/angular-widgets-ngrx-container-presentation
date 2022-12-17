@@ -1,0 +1,1 @@
+<app-widget-list [widgets]="widgets$ | async" [selectedWidget]="selectedWidget$ | async" (widgetSelected)="onWidgetSelected($event)" (widgetDeleted)="onWidgetDeleted($event)"></app-widget-list>
